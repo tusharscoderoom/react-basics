@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The project consists of react components and basic react understanding.
 
-**Access or view the project on Code SandBox -->**
+⚡**Access or view the project on Code SandBox -->**
 [HERE](http://bit.ly/3ZnCn66)
 
 Some screenshots -->
