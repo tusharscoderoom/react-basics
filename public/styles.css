@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'McLaren', cursive;
+}
+body {
+    background-color: #EBEBEA;
+}
+header {
+    color: #fff;
+    background-color: #EEAD1A;
+    padding: 12px;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+/* Note styling */
+.note {
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    width: fit-content;
+    max-width: 250px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.note .note-title {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.note .note-content {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Kalam', cursive;
+}
+
+/* Contact Componenet */
+.contact {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    padding: 20px;
+    max-width: 250px;
+    max-height: 100px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.contact .contact-detail {
+    display: inline-block;
+    margin: 0 0 12px 12px;
+    transform: translate(0, -25%);
+}
+.contact .contact-detail .contact-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* .contact .contact-detail .contact-about, .contact .contact-email { */
+.about {
+    color: #888888;
+    font-size: 0.8rem;
+}
+.contact img {
+    border: 3px solid rgb(13, 146, 207);
+    border-radius: 100%;
+}
+.contact .contact-tele {
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+/* Emoji Component */
+.emoji-container {
+    display: inline-block;
+    /* justify-content: space-evenly;
+    flex-direction: row; */
+}
+.emoji {
+    margin: 25px;
+    max-height: 250px;
+    min-height: 150px;
+    max-width: 300px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.emoji .emoji-card-holder {
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 80px;
+    height: 16px;
+    background-color: rgba(107, 114, 116, 0.8);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    border: 1px solid #a0b6c5;
+    border-radius: 6px;
+    transform: rotateZ(-45deg);
+}
+.emoji .emoji-icon {
+    font-size: 3.2rem;
+}
+.emoji .emoji-content {
+    margin-left: 20px;
+}
+.emoji .emoji-content .emoji-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    transform: translateX(-25%);
+}
+
+/* Login component */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 0;
+}
+.form-container .login-title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container form .input-field, .form-container .login-btn {
+    display: block;
+    outline: none;
+    width: 250px;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    background: #f5f5f550;
+    padding: 8px 12px;
+    border: 1px solid #eeae1a;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 3px #EEAD1A50;
+}
+.form-container .login-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #eeae1a;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+}
