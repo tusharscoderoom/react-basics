@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The project consists of react components and basic react understanding.
+Some screenshots -->
+
+![01](https://user-images.githubusercontent.com/106373251/227896861-b5ab4986-9415-4258-a126-99ce6c4f0cc4.png)
+and
+![02](https://user-images.githubusercontent.com/106373251/227896901-7a66a55f-a95a-4369-b4d1-aea7244dbded.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
