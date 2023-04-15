@@ -9,8 +9,7 @@ import { useState } from 'react';
 export default function App() {
     
     const [notes, setNotes] = useState([]);
-    // const [anim, setAnim] = useState(true);  animation states
-
+    // const [zoom, setZoom] = useState(true);
     function fromChild(singleNote) {
         /* 
             push() method changes the original array and creates a whole new
@@ -18,15 +17,31 @@ export default function App() {
             so it was giving error now using the spread operator
             for making shallow copy means same reference after copying
         */
-        setNotes( prev => [...prev, singleNote]);
+        // setZoom(true);
+        setNotes( prev => {
+            if(singleNote.title !== '' && singleNote.content !== '')
+                return [...prev, singleNote];
+            else
+            return prev;
+        });
         console.log(notes);
     }
 
-    function deleteNote(id) {
+    function deleteNote(id, dlt) {
+        console.log('note - ' +id);
+        console.log('dt - ' +dlt);
+        /*
+            This isn't behaving intentionally so consider this for a animation
+            play when note gets deleted
+         */
+        // setNotes( prev => ( 
+        //     prev.map( (note, ind) => 
+        //         (ind === id)?{...prev, anim:dlt}:{...prev}
+        //     )
+        // ))
+        console.log(notes);
         setNotes( prev => (
-            prev.filter( (note, ind) => 
-                (ind !== id)
-            )
+            prev.filter( (note, ind) => (ind !== id))
         ))
     }
 
@@ -49,6 +64,7 @@ export default function App() {
                 <Note 
                     key={index}
                     id={index}
+                    anim={note.anim}
                     title={note.title}
                     // date={thisDate}
                     content={note.content}

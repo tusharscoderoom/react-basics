@@ -6,4 +6,8 @@ function Title(props) {
     return <h2 style={{marginLeft: '25px', marginTop: '25px'}}>{props.title}</h2>
 }
 
+// function Input() {
+    
+// }
+
 export {About, Title};
