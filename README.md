@@ -1,7 +1,7 @@
 #React App for Notes
 
 ⚡**Access or view the project on Code SandBox -->**
-[Project HERE](https://codesandbox.io/p/github/tusharscoderoom/react-basics/main?workspaceId=0029c21a-84c3-4e48-bd16-d42fb0283f9b&file=%2Fsrc%2FApp.jsx)
+[Project HERE](https://codesandbox.io/p/github/tusharscoderoom/react-basics/main?workspaceId=0029c21a-84c3-4e48-bd16-d42fb0283f9b&file=%2Fsrc%2Fcomponents%2FNote.jsx)
 
 The new screenshots of the app -->
 ![new01](https://user-images.githubusercontent.com/106373251/229337502-e4fd6a40-4d27-4966-9808-8ec0c26373a7.png)
