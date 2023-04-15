@@ -1,7 +1,5 @@
 #React App for Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ⚡**Access or view the project on Code SandBox -->**
 [Project HERE](https://codesandbox.io/p/github/tusharscoderoom/react-basics/main?workspaceId=0029c21a-84c3-4e48-bd16-d42fb0283f9b&file=%2Fsrc%2FApp.jsx)
 
